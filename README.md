@@ -66,15 +66,14 @@ File class: **Porter.java**
 - Remove stop-words
 
 ## Program Execution Rules
-A .JAR file of the program was created. The JAR name is: KD_HW1_v1.7.jar
+A .JAR file of the program was created. The JAR name is: KD_HW1_v1.7.jar and you must send the path of the "citeseer" directory as a parameter.
 
-Therefore, to run the program you should go into the HW1 directory on Virtual Machine and then execute the following command:
+Therefore, to run the program you should go into the HW1 directory on your machine and then execute the following command:
 ~~~
     cd HW1
     java -jar KD_HW1_v1.7.jar citeseer/
 ~~~
 The .JAR program must be run with Java 7 or higher.
-You must send the path of the "citeseer" directory as a parameter.
 
 ## Program Output
 The program will show by console the answers for the project questions.
