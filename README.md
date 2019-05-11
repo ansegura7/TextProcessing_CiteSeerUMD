@@ -12,6 +12,9 @@ The project name is: **HW1_TextProcess** and it was created using the Eclipse ID
 ## Data
 The CiteSeer UMD collection is a standard text document collection, consisting of abstracts of research articles from Computer Science, which are sampled from the CiteSeer digital library.
 
+## Algorithms
+![Text Processing Algorithm](https://raw.githubusercontent.com/ansegura7/TextProcessing_CiteSeerUMD/master/images/text-processing-algorithm.png)
+
 ## Technologies and Techniques
 - Java (JDK 1.7)
 - Eclipse IDE
