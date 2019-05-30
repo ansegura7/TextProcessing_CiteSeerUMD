@@ -23,7 +23,7 @@ A .JAR file of the program was created. The JAR name is: KD_HW1_v1.7.jar and you
 
 Therefore, to run the program you should go into the HW1 directory on your machine and then execute the following command:
 ~~~
-    cd HW1
+    cd jar_folder
     java -jar KD_HW1_v1.7.jar citeseer/
 ~~~
 The .JAR program must be run with Java 7 or higher.
@@ -149,6 +149,11 @@ Output files:
 - File list output: output/filelist.txt
 - Word list output: output/wordlist.txt
 - Sparse TF-IDF representation: output/sparse-tf-idf.txt
+
+## Conclusions
+- TF-IDF is an excellent technique to identify the keywords of each document within a collection.
+- Remove stopwords and apply stemming and lematization techniques, helps to filter the list of relevant terms of each document, providing a better entry for the TF-IDF algorithm.
+- An inverted index is an excellent and fast data structure to manipulate the obtained keywords by the TF-IDF algorithm.
 
 ## Authors
 - Created By: Andres Segura Tinoco
