@@ -19,9 +19,9 @@ The CiteSeer UMD collection is a standard text document collection, consisting o
 - Remove stop-words
 
 ## Program Execution Rules
-A .JAR file of the program was created. The JAR name is: KD_HW1_v1.7.jar and you must send the path of the "citeseer" directory as a parameter.
+The project has an executable in the 'jar' folder. The JAR name is: KD_HW1_v1.7.jar and you must send the path of the "citeseer" directory as a parameter.
 
-Therefore, to run the program you should go into the HW1 directory on your machine and then execute the following command:
+Therefore, to run the program you should go into the jar directory on your machine and then execute the following command:
 ~~~
     cd jar_folder
     java -jar KD_HW1_v1.7.jar citeseer/
@@ -151,9 +151,9 @@ Output files:
 - Sparse TF-IDF representation: output/sparse-tf-idf.txt
 
 ## Conclusions
-- TF-IDF is an excellent technique to identify the keywords of each document within a collection.
-- Remove stopwords and apply stemming and lematization techniques, helps to filter the list of relevant terms of each document, providing a better entry for the TF-IDF algorithm.
-- An inverted index is an excellent and fast data structure to manipulate the obtained keywords by the TF-IDF algorithm.
+1. TF-IDF is an excellent technique to identify the keywords of each document within a collection.
+2. Remove stopwords and apply stemming and lematization techniques, helps to filter the list of relevant terms of each document, providing a better entry for the TF-IDF algorithm.
+3. An inverted index is an excellent and fast data structure to manipulate the obtained keywords by the TF-IDF algorithm.
 
 ## Authors
 - Created By: Andres Segura Tinoco
