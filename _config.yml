@@ -1,2 +1,5 @@
 title: Text Processing of CiteSeer UMD
+description: Program that preprocesses a collection of documents to calculate the frequency of the most common terms and identify the keywords of each document
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-cayman
